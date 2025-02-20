@@ -72,7 +72,7 @@ function App() {
             onInput={handleInput}
             className="text-box"
             role="textbox"
-            aria-placeholder="Enter text to be spoken"
+            aria-placeholder="Enter text to be read"
             dangerouslySetInnerHTML={{
               __html: getHighlightedText(text, currentIndex),
             }}
