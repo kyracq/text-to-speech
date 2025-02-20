@@ -50,7 +50,7 @@
 }
 
 .text-box:empty::before {
-  content: "Enter text to be spoken";
+  content: "Enter text to hear it read";
   color: #888;
 }
 
